@@ -1,0 +1,122 @@
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h2, h3, h4 {
+  color: #222;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  margin: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 8px;
+  margin: 4px 0 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
+
+form {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 24px auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.signup-container,
+.login-container,
+.dashboard-container {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.dashboard-container button {
+  margin-bottom: 16px;
+}
+
+.document-upload,
+.document-list,
+.question-answer {
+  margin-bottom: 24px;
+}
+
+.document-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.document-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.document-list li span {
+  flex-grow: 1;
+}
+
+.document-list button {
+  margin-left: 8px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+}
+
+textarea {
+  resize: vertical;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.answer {
+  background-color: #e9f5ff;
+  border-left: 4px solid #007bff;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 4px;
+  font-style: italic;
+  color: #004085;
+}
