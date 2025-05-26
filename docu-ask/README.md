@@ -38,4 +38,5 @@ This frontend can be hosted on GitHub Pages or any static site hosting service.
 
 ## Notes
 - Backend API and AI integration are not included in this frontend-only project.
-- Authentication and AI responses are simulated for demonstration purposes.
+- Authentication is simulated for demonstration purposes.
+
